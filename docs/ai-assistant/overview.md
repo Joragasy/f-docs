@@ -8,7 +8,7 @@ The AI Assistant is a core component of FDR that provides intelligent analysis, 
 
 ### Data Analysis
 
-- **Pattern Detection** — Automatically identify trends and patterns in collected data
+- **Optimized Search** — Enable users to search semantically using natural langage.
 - **Statistical Summaries** — Generate comprehensive statistical overviews of datasets
 
 ### Natural Language Interface
