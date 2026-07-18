@@ -44,10 +44,11 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Global Overview: global-overview.md
+  - Global Overview:
+    - Overview: global-overview.md
     - Project Main Goal: getting-started/project-main-goal.md
     - Innovation: getting-started/innovation.md
-  - Architecture Overview: architecture-overview.md
+  - Architecture Overview:
     - Overview: user-guide/overview.md
     - Configuration: user-guide/configuration.md
   - Harvesting:

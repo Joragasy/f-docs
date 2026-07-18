@@ -32,6 +32,5 @@ f-docs
 
 ## Learn More
 
-- [Installation Guide](../getting-started/installation.md)
-- [Quick Start](../getting-started/quickstart.md)
 - [Configuration](configuration.md)
+- [Architecture Overview](../architecture-overview.md)
