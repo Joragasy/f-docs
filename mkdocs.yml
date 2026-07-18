@@ -47,10 +47,7 @@ nav:
   - Global Overview:
     - Overview: global-overview.md
     - Project Main Goal: getting-started/project-main-goal.md
-    - Innovation: getting-started/innovation.md
-  - Architecture Overview:
-    - Overview: user-guide/overview.md
-    - Configuration: user-guide/configuration.md
+    - Architecture: getting-started/architecture.md
   - Harvesting:
     - Overview: api/overview.md
   - AI Assistant:
