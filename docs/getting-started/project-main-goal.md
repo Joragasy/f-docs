@@ -30,4 +30,4 @@ FDR orchestrates each step of this workflow, providing visibility and control at
 ## Learn More
 
 - [Innovation](innovation.md) — What sets FDR apart
-- [Architecture Overview](../architecture-overview.md) — System design details
+- [Architecture Overview](../user-guide/overview.md) — System design details

@@ -7,7 +7,7 @@ FDR is a comprehensive platform designed to streamline data management, harvesti
 ## Quick Navigation
 
 - **[Global Overview](global-overview.md)** — Understand the project scope and objectives
-- **[Architecture Overview](architecture-overview.md)** — Explore the system architecture and configuration
+- **[Architecture Overview](user-guide/overview.md)** — Explore the system architecture and configuration
 - **[Harvesting](api/overview.md)** — Learn about data harvesting capabilities
 - **[AI Assistant](ai-assistant/overview.md)** — Discover the AI-powered assistant features
 

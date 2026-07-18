@@ -41,5 +41,5 @@ FDR's architecture is designed for extensibility:
 
 ## Learn More
 
-- [Architecture Overview](../architecture-overview.md) — Explore the system design
+- [Architecture Overview](../user-guide/overview.md) — Explore the system design
 - [AI Assistant Overview](../ai-assistant/overview.md) — Discover AI features

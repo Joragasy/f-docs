@@ -58,5 +58,5 @@ ai:
 
 ## Learn More
 
-- [Architecture Overview](../architecture-overview.md) — System design and AI module placement
+- [Architecture Overview](../user-guide/overview.md) — System design and AI module placement
 - [Configuration](../user-guide/configuration.md) — Full configuration reference

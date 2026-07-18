@@ -33,4 +33,4 @@ f-docs
 ## Learn More
 
 - [Configuration](configuration.md)
-- [Architecture Overview](../architecture-overview.md)
+- [Architecture Overview](overview.md)
