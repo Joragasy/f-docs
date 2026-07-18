@@ -1,0 +1,58 @@
+site_name: FDR Documentation
+site_url: https://maheritiana.github.io/f-docs/
+repo_url: https://github.com/maheritiana/f-docs
+repo_name: joragasy/f-docs
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Global Overview: global-overview.md
+    - Project Main Goal: getting-started/project-main-goal.md
+    - Innovation: getting-started/innovation.md
+  - Architecture Overview: architecture-overview.md
+    - Overview: user-guide/overview.md
+    - Configuration: user-guide/configuration.md
+  - Harvesting:
+    - Overview: api/overview.md
+  - AI Assistant:
+    - Overview: ai-assistant/overview.md
+  - Contributing: contributing.md
+  - Changelog: changelog.md
