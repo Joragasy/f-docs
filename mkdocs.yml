@@ -44,7 +44,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Global Overview:
+  - Fedora Overview:
     - Overview: global-overview.md
     - Project Main Goal: getting-started/project-main-goal.md
     - Innovation: getting-started/innovation.md
