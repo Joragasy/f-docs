@@ -1,25 +1,25 @@
-site_name: FDR Documentation
-site_url: https://maheritiana.github.io/f-docs/
-repo_url: https://github.com/maheritiana/f-docs
-repo_name: joragasy/f-docs
-
+site_name: ''
+ 
 theme:
   name: material
+  custom_dir: overrides
+  logo: assets/logo/fedora-logo.png
+  favicon: assets/logo/favicon.png
   palette:
     - scheme: default
-      primary: indigo
+      primary: #015B77
       accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: #015B77
+      accent: #015B77
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.path
@@ -27,7 +27,6 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -44,13 +43,14 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Fedora Overview:
-    - Overview: global-overview.md
-    - Project Main Goal: getting-started/project-main-goal.md
-    - Innovation: getting-started/innovation.md
+  - Data Space Overview:
+    - Overview: overview/fedora-overview.md
+    - Main Goal: overview/project-main-goal.md
+    - Innovation: overview/innovation.md
   - Harvesting:
-    - Overview: api/overview.md
+    - Introduction : harvesting/introduction.md
+    - How to harvest : harvesting/how-to-harvest.md
   - AI Assistant:
-    - Overview: ai-assistant/overview.md
-  - Contributing: contributing.md
+    - Introduction: ai-assistant/introduction.md
+    - User guide : ai-assistant/user-guide.md
   - Changelog: changelog.md

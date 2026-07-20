@@ -1,23 +1,13 @@
-# Welcome to FDR Documentation
+# Welcome to Fedora Data Space Documentation
 
-## Overview
-
-FDR is a comprehensive platform designed to streamline data management, harvesting, and intelligent analysis. This documentation provides all the information you need to understand, set up, and use the FDR system.
+The FEDORA Mobility Data Space supports the project’s federated approach to advanced traffic and network management. It provides a shared catalog where project partners and stakeholders can discover, publish, access, and reuse datasets for multi-modal mobility research, demonstrations, optimization services, and simulation workflows.
 
 ## Quick Navigation
 
-- **[Global Overview](global-overview.md)** — Understand the project scope and objectives
-- **[Architecture Overview](user-guide/overview.md)** — Explore the system architecture and configuration
-- **[Harvesting](api/overview.md)** — Learn about data harvesting capabilities
-- **[AI Assistant](ai-assistant/overview.md)** — Discover the AI-powered assistant features
+- **[Fedora Overview](overview/fedora-overview.md)** — Understand the project scope and objectives
+- **[Harvesting Workflow](harvesting/introduction.md)** — Automating the harvesting process.
+- **[AI Assistant](ai-assistant/introduction.md)** — Explore available dataset using natural langage.
 
-## Getting Started
-
-New to FDR? Start with the **Global Overview** section to understand the project's goals and innovation, then move to the **Architecture Overview** to see how everything fits together.
-
-## Contributing
-
-We welcome contributions! See the [Contributing Guide](contributing.md) for details on how to get involved.
 
 ## Changelog
 
