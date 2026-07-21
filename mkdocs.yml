@@ -49,6 +49,7 @@ nav:
     - Innovation: overview/innovation.md
   - Harvesting:
     - Introduction : harvesting/introduction.md
+    - Installation : harvesting/installation.md
     - How to harvest : harvesting/how-to-harvest.md
   - AI Assistant:
     - Introduction: ai-assistant/introduction.md
