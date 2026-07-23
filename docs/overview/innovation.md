@@ -6,7 +6,7 @@ FDR introduces several innovative approaches to data management and analysis tha
 
 ## Key Innovations
 
-### Intelligent Harvesting
+<!-- ### Intelligent Harvesting
 
 FDR goes beyond simple data collection by incorporating adaptive harvesting strategies that optimize for:
 
@@ -25,7 +25,7 @@ The built-in AI assistant provides:
 FDR's architecture is designed for extensibility:
 
 - Plugin-based harvesting adapters
-- Configurable processing pipelines
+- Configurable processing pipelines -->
 
 
 
