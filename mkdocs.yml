@@ -51,7 +51,7 @@ nav:
     - Introduction : harvesting/introduction.md
     - Installation : harvesting/installation.md
     - How to harvest : harvesting/how-to-harvest.md
-    - Harvest mobilityDCAT-AP : harvesting/harvest-mobilitydcat-ap.md
+    # - Harvest mobilityDCAT-AP : harvesting/harvest-mobilitydcat-ap.md
   - AI Assistant:
     - Introduction: ai-assistant/introduction.md
     - User guide : ai-assistant/user-guide.md
