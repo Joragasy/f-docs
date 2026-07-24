@@ -46,7 +46,7 @@ nav:
   - Data Space Overview:
     - Overview: overview/fedora-overview.md
     - Main Goal: overview/project-main-goal.md
-    - Innovation: overview/innovation.md
+    # - Innovation: overview/innovation.md
   - Harvesting:
     - Introduction : harvesting/introduction.md
     - Installation : harvesting/installation.md

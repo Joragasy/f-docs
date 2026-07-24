@@ -16,8 +16,8 @@ Fedora Data Space aims to:
 - Data Scientist/Engineer managing data collection.
 - Partners looking for specific dataset.
 
-## How It Works
+<!-- ## How It Works
 
 ```
 Data Sources → Harvesting Pipeline → Processing → AI Analysis → Insights
-```
+``` -->
