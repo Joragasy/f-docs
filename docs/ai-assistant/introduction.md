@@ -13,5 +13,5 @@ The AI Assistant is a core component of the data space that provides intelligent
 
 ### Natural Language Interface
 
-- 
+
 

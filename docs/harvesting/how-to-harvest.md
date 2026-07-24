@@ -76,4 +76,4 @@ Upon successful completion, all information defined in the CSV source file will 
 
 ## Conclusion
 
-This guide has walk you through the complete harvesting workflow using fedora-harvester — from obtaining an API token and configuring the tool to executing harvest jobs. By leveraging this automated approach, you can efficiently manage and update your Data Catalogue with minimal manual intervention. For further details on installation or advanced usage, refer to the [Installation](installation.md) and [Introduction](introduction.md) pages.
+This guide has walk you through the complete harvesting workflow using fedora-harvester — from obtaining an API token and configuring the tool to executing harvest jobs. By leveraging this automated approach, you can efficiently manage and update your Data Catalogue with minimal manual intervention.
