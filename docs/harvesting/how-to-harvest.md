@@ -1,64 +1,79 @@
+# How to Harvest
 
-# How To Harvest
-
-There are two ways to configure harvesting: manually using the graphical interface, or automatically using a script. This guide demonstrates the automatic approach, which is less time consuming and highly reproducible.
+Harvesting can be configured either manually through the CKAN graphical interface or automatically using the fedora-harvester tool. This guide covers the automatic approach, which offers greater efficiency and reproducibility.
 
 ## Prerequisites
 
-Before you begin, make sure you have completed the [Installation](installation.md) steps and connected to the Data Catalogue platform (based on CKAN).
+Before proceeding, ensure that you have completed the [Installation](installation.md) steps and have access to the Data Catalogue platform (based on CKAN).
 
-The following image shows the home page of our Data Catalogue:
+The following image shows the home page of the Data Catalogue:
 
 ![CKAN Home Page](../assets/harvesting/ckan-home-page.png)
 
-## Steps
+## Procedure
 
-### 1. Get an API token
+### 1. Obtain an API Token
 
-Get a token in order to grant API access and authorize remote calls.
+An API token is required to authorise remote calls to the Data Catalogue.
 
-For that, go to the admin -> API Token , as shown in the following figure
+To generate a token, navigate to **Admin → API Token**, as illustrated below.
 
 ![Token Generation](../assets/harvesting/token_generation.png)
 
 ### 2. Configure fedora-harvester
 
-After installation, check if tool is available and work correctly 
+Once the installation is complete, verify that fedora-harvester is installed and functioning correctly.
 
-Run `fedora-hervester --help` command line, and you should see the following message 
+Run the following command:
+
+```bash
+fedora-harvester --help
+```
+
+You should see the output below, which confirms that the tool is operational but not yet configured:
 
 ![fedora harvester before config](../assets/harvesting/fedora-harvester-before-config.png)
 
-It means tool work properly, but configuration is not yet done.
+Complete the initial configuration by running the command provided in the output.
 
-Configure fedora harvester by running proposed command.
+Once configured, run `fedora-harvester --help` again. The full list of available options should now be displayed:
 
-Then run again `fedora-hervester --help` .
+![fedora harvester after config](../assets/harvesting/fedora-harvester-after-config.png)
 
-You should see all available options
+### 3. Prepare the CSV Source File
 
-![fedora harvester before config](../assets/harvesting/fedora-harvester-after-config.png)
+All required information for defining organisations and data sources must be provided in a CSV file.
 
-### 3. Prepare your csv file 
+![Example of CSV source list file](../assets/harvesting/example_of_csv_source.png)
 
-All need information for organizations and source creation should be added in the csv file, 
+The example above contains two sources to harvest.
 
-![Example of csv source list file](../assets/harvesting/example_of_csv_source.png)
+As shown in the `fedora-harvester --help` output, you can harvest either all sources or a specific row.
 
-Here, in the example above , we have 2 sources to harvest
+#### Harvesting a Specific Row
 
-As shown in the `fedora-harvester --help` , we can either harvest all sources or only a specific row.
-
-For harvesting a specific row , you should run the following command : 
+To harvest a single row from the CSV file, run:
 
 ```bash
-  # fedora-harvester -n <number_row> harvest <csv_file_path>
+fedora-harvester -n <number_row> harvest <csv_file_path>
 ```
 
-![Example of csv source list file](../assets/harvesting/harvest_specific_row.png)
+![Harvest specific row](../assets/harvesting/harvest_specific_row.png)
 
-In other hand, run this command to harvest all rows in the csv file:
+#### Harvesting All Rows
+
+To harvest all rows in the CSV file, run:
 
 ```bash
-  # fedora-harvester harvest <csv_file_path>
+fedora-harvester harvest <csv_file_path>
 ```
+
+### Result
+
+Upon successful completion, all information defined in the CSV source file will be reflected in the Data Catalogue. The following image shows the expected result:
+
+![Harvest result](../assets/harvesting/harvest_result.png)
+
+## Conclusion
+
+This guide has walk you through the complete harvesting workflow using fedora-harvester — from obtaining an API token and configuring the tool to executing harvest jobs. By leveraging this automated approach, you can efficiently manage and update your Data Catalogue with minimal manual intervention. For further details on installation or advanced usage, refer to the [Installation](installation.md) and [Introduction](introduction.md) pages.
