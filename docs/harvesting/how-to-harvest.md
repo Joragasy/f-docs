@@ -49,9 +49,16 @@ Here, in the example above , we have 2 sources to harvest
 
 As shown in the `fedora-harvester --help` , we can either harvest all sources or only a specific row.
 
-For harvesting all rows, you should the following command : 
+For harvesting a specific row , you should run the following command : 
 
 ```bash
   # fedora-harvester -n <number_row> harvest <csv_file_path>
 ```
 
+![Example of csv source list file](../assets/harvesting/harvest_specific_row.png)
+
+In other hand, run this command to harvest all rows in the csv file:
+
+```bash
+  # fedora-harvester harvest <csv_file_path>
+```
